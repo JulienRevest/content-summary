@@ -1,0 +1,20 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-content-summary {
+	.cols-summary-content {
+		display: flex;
+	}
+	.col-summary {
+		flex: 0 0 calc(25% - 30px);
+		margin-right: 30px;
+	}
+	.col-content {
+		flex: 0 0 calc(75% - 30px);
+		margin-right: 30px;
+	}
+}

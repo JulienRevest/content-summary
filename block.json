@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/content-summary",
+	"title": "Contenu avec sommaire automatique",
+	"category": "layout",
+	"icon": "align-pull-right",
+	"description": "Double colonne avec sommaire automatique en colonne de gauche",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "content-summary",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
